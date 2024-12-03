@@ -16,7 +16,7 @@ def lambda_handler(event, context):
 
     # data range
     start_date = datetime(2020, 1, 1)
-    end_date = datetime(2023, 10, 31)
+    end_date = datetime(2024, 10, 31)
 
     try:
         current_date = start_date
