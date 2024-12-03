@@ -11,9 +11,8 @@ def lambda_handler(event, context):
     # Compare the dates
     if current_date > end_date:
         client = boto3.client('events')
-        
-        # Replace 'your_rule_name' with the name of the rule to disable
-        rule_name = 'your_rule_name'
+    
+        rule_name = 'daily-weather-update'
         
         try:
             client.disable_rule(Name=rule_name)
