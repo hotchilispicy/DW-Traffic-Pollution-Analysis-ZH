@@ -43,7 +43,7 @@ ORDER BY
     Hour;
 
 
--- for winf data Natarina dashobard again
+-- for wind data Natarina dashobard again
 SELECT 
     Standort AS Location_Name,
     'Rosengarten' AS Location,
