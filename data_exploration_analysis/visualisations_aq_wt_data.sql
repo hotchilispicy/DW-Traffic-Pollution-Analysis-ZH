@@ -1,3 +1,7 @@
+-- NOTE: we don't incldue the creation of tables code because they are too generic. 
+-- Here is only the code for the visuals
+
+
 -- for the dashboard for Natarina Use case 
 SELECT 
     DATE_FORMAT(Datum, '%H:00') AS Hour,
